@@ -243,30 +243,8 @@ hr {
 /* Logo                                                                          */
 /*********************************************************************************/
 
-	#logo 
-	{
-		width: 500px;
-		height: 100px;
-		margin: 0 auto;
-		padding: 2em 0em;
-		text-transform: uppercase;
-	}
-	
 	#logo h1
 	{
-		letter-spacing: 0.05em;
-		font-size: 3em;
-	}
-	
-	#logo p 
-	{
-		letter-spacing: 0.10em;
-		color: #FFF;
-	}
-	
-	#logo a 
-	{
-		text-decoration: none;
 		color: #FFF;
 	}
 
@@ -372,6 +350,7 @@ hr {
 
 	#copyright
 	{
+		background-color: #16a085;
 		overflow: hidden;
 		padding: 2em 0em;
 		text-align: center;
@@ -383,13 +362,13 @@ hr {
 		text-align: center;
 		text-transform: uppercase;
 		font-size: 0.80em;
-		color: rgba(255,255,255,.5);
+		color: #fff;
 	}
 	
 	#copyright a
 	{
 		text-decoration: none;
-		color: rgba(255,255,255,.7);
+		color: #fff;
 	}
 
 /*********************************************************************************/
@@ -551,23 +530,23 @@ hr {
 	{
 		float: left;
 		width: 250px;
-		margin-right: 24px;
-		padding-right: 30px;
+		/* margin-right: 24px; */
+		/* padding-right: 30px; */
 	}
 	
 	#box2
 	{
 		float: left;
 		width: 550px;
-		margin-left: 24px;
-		padding-right: 30px;
+		/* margin-left: 24px; */
+		/* padding-right: 30px; */
 	}
 	
 	#box3
 	{
-		float: right;
+		float: left;
 		width: 250px;
-		padding-left: 40px;
+		/* padding-left: 40px; */
 	}
 
 
