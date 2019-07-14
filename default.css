@@ -193,6 +193,31 @@ hr {
 		color: #6F6F6F;
 	}
 
+	.titleForm
+	{
+		margin-bottom: 2em;
+		text-transform: uppercase;
+	}
+
+	.titleForm h2
+	{
+		margin-left: 15px;
+		font-weight: 400;
+		font-size: 2em;
+		color: #16a085;
+	}
+	
+	.titleForm .byline
+	{
+		
+		margin-left: 15px;
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 0.90em;
+		color: #6F6F6F;
+	}
+
 /** WRAPPER */
 
 #wrapper {
@@ -247,19 +272,6 @@ hr {
 	{
 		color: #FFF;
 	}
-
-/*********************************************************************************/
-/* Banner                                                                        */
-/*********************************************************************************/
-
-	#banner 
-	{
-		overflow: hidden;
-		height: 500px;
-		background: url(images/pic01.jpg) no-repeat center;
-		background-size: cover;
-	}
-	
 
 /** MENU */
 
@@ -329,8 +341,8 @@ hr {
 
 	#sidebar
 	{
-		float: right;
-		width: 345px;
+		margin-left: 0px;
+		width: 30%;
 	}
 	
 	#sidebar .title h2
