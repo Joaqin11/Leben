@@ -181,7 +181,7 @@ hr {
 	{
 		font-weight: 400;
 		font-size: 2em;
-		color: #16a085;
+		color: #000000;
 	}
 	
 	.title .byline
@@ -277,7 +277,7 @@ hr {
 
 #menu-wrapper
 {
-	background: #16a085;
+	background: #ffc107a6;
 }
 
 #menu {
@@ -362,7 +362,7 @@ hr {
 
 	#copyright
 	{
-		background-color: #16a085;
+		background-color: #ffc107a6;
 		overflow: hidden;
 		padding: 2em 0em;
 		text-align: center;
@@ -374,13 +374,13 @@ hr {
 		text-align: center;
 		text-transform: uppercase;
 		font-size: 0.80em;
-		color: #fff;
+		color: rgb(0, 0, 0);
 	}
 	
 	#copyright a
 	{
 		text-decoration: none;
-		color: #fff;
+		color: rgb(71, 70, 70);
 	}
 
 /*********************************************************************************/
