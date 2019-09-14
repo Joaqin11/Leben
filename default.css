@@ -176,6 +176,13 @@ hr {
 		margin-bottom: 2em;
 		text-transform: uppercase;
 	}
+	
+	.title-sub
+	{
+		margin-bottom: 0em;
+		text-transform: uppercase;
+		margin-top: 2em;
+	}
 
 	.title h2
 	{
@@ -186,12 +193,22 @@ hr {
 	
 	.title .byline
 	{
-		letter-spacing: 0.15em;
+		letter-spacing: 0.05em;
 		text-transform: uppercase;
 		font-weight: 400;
 		font-size: 0.90em;
 		color: #6F6F6F;
 	}
+
+
+
+	.title-sub .byline {
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #000000;
+  }
+  
 
 	.titleForm
 	{
@@ -246,9 +263,9 @@ hr {
 #header-wrapper
 {
 	overflow: hidden;
-	background: url(images/bg01.png) repeat;
+	
 	background-size: 100%;
-	padding: 3em 0em 2em 0em;
+	padding: 1em 0em 1em 0em;
 	background: #333333;
 }
 
